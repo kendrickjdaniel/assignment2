@@ -1,0 +1,91 @@
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    }
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: 0em;
+  height: 500px;
+  background: url(header_bg.jpg);
+  background-repeat: no-repeat;
+}
+
+.benefits{
+  width: 100%;
+  margin: 0em;
+  height: 400px;
+  text-align: left;
+  background-color: #f0efef;
+  text-indent: 75px;
+}
+
+.testimonial{
+  width: 100%;
+  margin: 0em;
+  background: url(testimonial_bg.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  color: #FFFFFF;
+  text-align: block;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1{
+  font-weight: bolder;
+  font-size: 24px;
+  color:#FFFFFF;
+  text-indent: 60px;
+
+}
+
+h2{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h3{
+  font-size: 24px;
+  text-indent: 60px;
+}
+
+.get2{
+  background-color: #f9e42e;
+    width: 200px;
+    border: 5px;
+    padding: 15px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.signupnow{
+  background-color: #f9e42e;
+  width: 100%;
+    border: 5px;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
+
