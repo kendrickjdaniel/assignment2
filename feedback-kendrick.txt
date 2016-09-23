@@ -1,0 +1,39 @@
+Use HTML5 structural elements (nav, header, footer)
+  - Good!
+
+Use a CSS Reset file in addition to your style.css file to style the page
+  - You have the reset file in your folder, but it's not linked in the HTML. You just need to put this in the <head> right before your other CSS files:
+  <link rel="stylesheet" href="reset.css">
+  The reset CSS file clears the default styles in your browser so that you have more control over the styles. See how your background images have that white margin around them. That's coming from the browser's default styling, and it will go away with the reset file.
+
+Use IDs and Classes to select and style elements on the page
+  - Good!
+
+Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming IDs and Classes
+  - Good!
+
+Indent nested elements to increase your code's readability
+  - Your indents are pretty good. Just make sure to keep it consistent for all the elements.
+
+Use CSS display and float to get the layout correct
+  - Good!
+
+
+Additional Comments:
+
+This looks a lot better than what you showed me the other day!
+
+You have a few extra tags in your HTML, like the <div> on line 3, and the </header> on line 50. Watch out for those and make sure all your tags have matches, but that will get easier to keep track of with practice.
+
+To make your blockquote not stretch across the whole page, you can give it a width, and then center it:
+blockquote {
+  width: 50%;
+  margin: 0 auto;
+}
+
+You can use <br> in your HTML, but it's much better to control your styling in CSS. You can achieve the same thing with padding:
+h2{
+  padding: 100px 0;
+}
+
+You're definitely making progress. Let me know if you have any questions.
